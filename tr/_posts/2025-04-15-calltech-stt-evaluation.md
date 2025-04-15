@@ -9,7 +9,8 @@ tags: [konuşmadan-metne, whisper, wav2vec2, yapayzeka, çağrı-merkezi]
 Calltech Ar-Ge ekibi olarak, Türkçe sesli veriler üzerinde gerçekleştirdiğimiz konuşmadan metne çeviri (STT) model karşılaştırma çalışmamız **hakemli bir dergide yayınlandı**!
 
 📄 **Makalenin tamamı burada okunabilir:**  
-👉 [DergiPark Üzerinden Görüntüle](https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487)
+👉 <a href="https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487" target="_blank" rel="noopener noreferrer">Makaleyi Oku</a>
+
 
 ### 🧪 Araştırmanın Amacı
 

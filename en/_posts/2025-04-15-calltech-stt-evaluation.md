@@ -9,9 +9,7 @@ tags: [speech-to-text, whisper, wav2vec2, research, turkish]
 As part of our ongoing research at Calltech, we’re excited to share a peer-reviewed publication exploring the performance of two leading speech-to-text (STT) models for Turkish: **Whisper-Small** and **Wav2Vec2-XLS-R-300M**.
 
 📄 **The full paper is available here:**  
-👉 [Read the paper on DergiPark](https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487)
-
-{{ "https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487" | markdownify | replace: '<a href', '<a target="_blank" rel="noopener noreferrer" href' }}
+👉 <a href="https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487" target="_blank" rel="noopener noreferrer">Read the article</a>
 
 
 ### 🔍 Research Context
