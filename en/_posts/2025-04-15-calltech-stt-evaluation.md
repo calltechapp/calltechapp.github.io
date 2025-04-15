@@ -11,6 +11,9 @@ As part of our ongoing research at Calltech, we’re excited to share a peer-rev
 📄 **The full paper is available here:**  
 👉 [Read the paper on DergiPark](https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487)
 
+{{ "https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1252487" | markdownify | replace: '<a href', '<a target="_blank" rel="noopener noreferrer" href' }}
+
+
 ### 🔍 Research Context
 
 In our study, we fine-tuned both models on the open-source **Common Voice 11.0** dataset for Turkish. We then evaluated their performance on both that dataset and a **private call center audio set** that was never seen during training.
