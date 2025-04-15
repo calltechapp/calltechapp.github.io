@@ -1,0 +1,17 @@
+title: "Calltech Blog"
+description: "Voice AI & Speech Analytics"
+baseurl: "/en"
+locale: "en"
+include:
+  - en
+collections:
+  posts:
+    output: true
+    permalink: /en/:categories/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: "en"
+      type: "posts"
+    values:
+      layout: "single"
+      lang: "en"

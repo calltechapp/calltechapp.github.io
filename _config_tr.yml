@@ -1,0 +1,17 @@
+title: "Calltech Blog (TR)"
+description: "Sesli Yapay Zeka & Görüşme Analitiği"
+baseurl: "/tr"
+locale: "tr"
+include:
+  - tr
+collections:
+  posts:
+    output: true
+    permalink: /tr/:categories/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: "tr"
+      type: "posts"
+    values:
+      layout: "single"
+      lang: "tr"
