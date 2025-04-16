@@ -27,7 +27,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
-  
 
 author:
   name   : "Calltech AI"
@@ -36,16 +35,10 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://calltech.app"
+      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/calltechapp"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/calltechapp" 
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/company/calltech-inc/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/calltechapp"
@@ -57,22 +50,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/calltechapp"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/calltechapp"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/company/calltech-inc/"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/calltechapp"
+      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/calltechapp"
-
-# Removed global post defaults to avoid language conflicts
-# You can still define language-specific defaults in _config_en.yml and _config_tr.yml
+      url: "https://instagram.com/"
 
 category_archive:
   type: liquid
@@ -80,3 +64,30 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+collections:
+  posts:
+    output: true
+    permalink: /en/:categories/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: "en"
+      type: "posts"
+    values:
+      layout: "single"
+      lang: "en"
+
+
+collections:
+  posts:
+    output: true
+    permalink: /tr/:categories/:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: "tr"
+      type: "posts"
+    values:
+      layout: "single"
+      lang: "tr"
+
